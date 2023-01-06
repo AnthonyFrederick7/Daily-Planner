@@ -1,15 +1,24 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 1%;
 }
 
 textarea {
+  display: flex;
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  justify-content: left;
+  vertical-align: middle;
 }
 
 .description {
@@ -27,7 +36,7 @@ textarea {
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
 }
 
 .past {
